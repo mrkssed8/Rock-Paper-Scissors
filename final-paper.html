@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper</title>
+    <link rel="stylesheet" href="CSS/final-paper.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="html-main js-html-main">
+      <div class="title">Rock Paper Scissors</div>
+      <div class="div-input">
+        <button title="Rock" class="user-input-button js-rock-button">
+          <img
+            class="user-input-img"
+            src="Rock Paper Img/rock.png"
+            alt="Rock"
+          />
+        </button>
+        <button title="Paper" class="user-input-button js-paper-button">
+          <img
+            class="user-input-img"
+            src="Rock Paper Img/paper.png"
+            alt="Paper"
+          />
+        </button>
+        <button title="Scissors" class="user-input-button js-scissors-button">
+          <img
+            class="user-input-img"
+            src="Rock Paper Img/scissors.png"
+            alt="Scissors"
+          />
+        </button>
+      </div>
+      <div class="main-result">
+        <div class="div-result">
+          <p class="js-result result"></p>
+        </div>
+        <div class="div-moves">
+          <p class="js-moves moves"></p>
+        </div>
+        <p class="js-score score"></p>
+      </div>
+      <div class="div-reset">
+        <button class="reset-button js-reset-button">Reset Score</button>
+        <button class="reset-button js-auto-button">Auto Play</button>
+      </div>
+    </div>
+
+    <div class="reset-confirm js-reset-confirm"></div>
+    <script src="JS/final-paper.js"></script>
+  </body>
+</html>
