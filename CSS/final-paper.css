@@ -124,8 +124,9 @@ p {
   }
   .main-result {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-itmes: center;
   }
   .div-reset {
     display: flex;
